@@ -64,6 +64,7 @@ To remove an app, ssh to the server, then run:
     # Then from that list, take the IDs corresponding to your app, and
     # those corresponding to no tag at all, and for each run:
     $ sudo docker rmi 123456789
+    $ rm /home/git/node-js-sample/PORT
 
 ## Environment setup
 
